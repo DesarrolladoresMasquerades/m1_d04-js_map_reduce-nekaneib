@@ -1,6 +1,6 @@
 // ONLY USE THE .map() METHOD FOR THIS EXERCISE
 
-/*
+
 // Exercise 1: Capitalize each element of the array - the whole word:
 const fruits = ['pineapple', 'orange', 'mango'];
 
@@ -10,7 +10,7 @@ let uppercaseFruits = fruits.map((el) => {
 console.log(uppercaseFruits)
 
 // Answer should be  ['PINEALLPLE', 'ORANGE', 'MANGO'];
-*/
+
 
 // Exercise 2: Capitalize the first letter of every city. 
 const cities = ['miami', 'barcelona', 'madrid', 'amsterdam', 'berlin', 'sao paulo', 'lisbon', 'mexico city']

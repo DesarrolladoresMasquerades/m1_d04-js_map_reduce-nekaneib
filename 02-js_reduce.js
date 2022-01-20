@@ -32,3 +32,14 @@ const countOlderThan30 = students.reduce(
 )
 
 console.log(countOlderThan30)
+
+const classRoster = students.reduce(
+    (roster, student)=>{
+         roster.push(`${student.firstName} ${student.lastName}`)
+        return roster
+        }
+    ,
+    []
+)
+
+console.log("roster: ", classRoster)
