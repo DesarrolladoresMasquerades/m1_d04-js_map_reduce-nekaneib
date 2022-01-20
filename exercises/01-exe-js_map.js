@@ -1,6 +1,6 @@
 // ONLY USE THE .map() METHOD FOR THIS EXERCISE
 
-
+/*
 // Exercise 1: Capitalize each element of the array - the whole word:
 const fruits = ['pineapple', 'orange', 'mango'];
 
@@ -24,11 +24,12 @@ console.log(uppercaseCities)
 
 // Answer should be 
 // [ 'Miami', 'Barcelona', 'Madrid', 'Amsterdam', 'Berlin', 'Sao paulo', 'Lisbon', 'Mexico city', 'Paris' ]
+*/
 
 // Exercise  3: Create an array with only the names of the restaurants 
 // Note: Be careful here. Info is an object with a key called 'cities' which is an array
  
-/*
+
 const info = {
     cities : [
       {name: 'Mirazur', owner : 'Gustavo'},
@@ -39,13 +40,12 @@ const info = {
    ]  
 }
 
-
 const getRestaurantsNames = (arr) => {
-   //your code here...
+  return arr.cities.map(x => x.name)
 }
 
-let restaurantsNames = getRestaurantsNames( /* pass your array here*/
-//console.log(restaurantsNames)
+let restaurantsNames = getRestaurantsNames(info)
+console.log(restaurantsNames)
 
 // Answer should be [ 'Mirazur', 'Noma', 'Gaggan', 'Geranium', 'Arpège']
 
